@@ -27,7 +27,7 @@ class CollabController extends Controller
       #return File::get(public_path('index.php'));
       #return $request->input('name', 'watson');
       #return request('name');
-       return view('welcome'); 
-    # return View::make('welcome');
+      # return view('welcome'); 
+     return View::make('welcome');
     }
 }

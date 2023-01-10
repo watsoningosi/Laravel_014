@@ -8,6 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Example 
 {
 
+    public function handle()
+    {
+       die('Watson Did It');
+    }
+
+   /*
     protected $collaborator; 
 
     protected $foo;
@@ -19,7 +25,7 @@ class Example
         $this->foo = $foo;
     }
 
-   /* protected $foo;
+    protected $foo;
 
     public function __construct($foo)
     {
